@@ -1,0 +1,539 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* HELPER CLASSES Start */
+
+.alignLeft {
+  float: left;
+}
+
+.alignRight {
+  float: right;
+}
+
+.margin-bottom-10 {
+  margin-bottom: 10px;
+}
+
+.margin-bottom-20 {
+  margin-bottom: 20px;
+}
+
+.margin-bottom-30 {
+  margin-bottom: 30px;
+}
+.margin-bottom-40 {
+  margin-bottom: 40px;
+}
+
+strong,
+b {
+  font-weight: 700;
+}
+
+/* HELPER CLASSES End*/
+
+/* General rules Start */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+#hero {
+  background-image: linear-gradient(
+      rgba(58, 63, 58, 0.637),
+      rgba(58, 63, 58, 0.637)
+    ),
+  url(../img/hero-bg.png);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+h2 {
+  font-size: 52px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.nav li {
+  display: inline-block;
+}
+
+.nav li a {
+  color: white;
+  text-transform: uppercase;
+  margin-left: 30px;
+  text-decoration: none;
+  padding-bottom: 10px;
+  border-bottom: 4px solid white transparent;
+  transition: border-bottom 0.1s, color 0.1s;
+}
+.nav li a:hover {
+  border-bottom: 4px solid white;
+}
+
+.container {
+  max-width: 1100px;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+  padding: 25px 20px;
+}
+
+#hero h2 {
+  color: white;
+  margin-bottom: 40px;
+}
+
+.cta {
+  display: inline-block;
+  margin-top: 90px;
+  position: relative;
+}
+
+.iphone-imgs {
+  position: absolute;
+  float: right;
+  right: -170px;
+}
+
+.iphone {
+  width: 85%;
+  position: relative;
+  margin-bottom: -240px;
+  top: 1px;
+}
+
+.cta-info {
+  width: 60%;
+  float: left;
+}
+.cta-info h2 {
+  text-align: center;
+}
+
+.para-hero {
+  font-family: "Open Sans Condensed", sans-serif;
+  color: white;
+  font-size: 36px;
+  line-height: 44px;
+  margin-bottom: 55px;
+}
+
+.cta-btn {
+  background: #282828;
+  color: white;
+  padding: 23px 35px;
+  text-decoration: none;
+  border-radius: 50px;
+}
+
+.cta-btn:hover {
+  background: #383737;
+  transition: 0.3s;
+}
+
+.mini-phone {
+  vertical-align: middle;
+  padding-right: 20px;
+}
+
+/* APP FEATURES Section*/
+
+#app-features .container {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.app-features {
+  padding-bottom: 40px;
+  font-weight: 700;
+  font-size: 52px;
+  text-transform: uppercase;
+  color: #8a8a8a;
+}
+
+.col-4-app {
+  width: 33.33%;
+  float: left;
+}
+
+.p-features {
+  padding: 0 130px;
+  margin-bottom: 40px;
+  font-family: "Open Sans Condensed", sans-serif;
+  font-size: 22px;
+  color: #3a3a3a;
+}
+
+.row {
+  overflow: hidden;
+}
+
+.row p {
+  padding: 20px 50px;
+  color: #8a8a8a;
+  font-family: "Open Sans Condensed", sans-serif;
+  font-size: 20px;
+  color: #797979;
+}
+
+.row h3 {
+  font-size: 24px;
+  font-weight: 700;
+  padding: 20px;
+  text-transform: uppercase;
+}
+
+/* lady nose section start */
+
+#nose-lady {
+}
+
+#nose-lady {
+  background-image: linear-gradient(
+      rgba(13, 13, 14, 0.4),
+      rgba(13, 13, 14, 0.4)
+    ),
+    url(../img/mobile-bg.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.lady-content {
+  width: 50%;
+  padding: 100px 0;
+}
+
+.p-lady {
+  margin-top: 55px;
+  margin-bottom: 50px;
+  width: 70%;
+  color: white;
+  font-size: 20px;
+}
+#nose-lady .container {
+  padding: 0 20px;
+}
+
+.tagline {
+  font-size: 60px;
+  text-align: left;
+  color: white;
+}
+
+.download-btn {
+  background-color: #981d1d;
+  padding: 10px 10px;
+  text-decoration: none;
+  border-radius: 50px;
+  color: rgb(177, 177, 177);
+}
+.download-btn:hover {
+  background-color: #981d1d;
+  transition: 0.3s;
+}
+
+.reddish {
+  color: rgb(177, 177, 177);
+}
+
+/* lady nose section End */
+
+/* footer section start */
+
+#footer-des {
+  background: #2e2e38;
+}
+
+#footer-des .container {
+  padding: 120px 20px;
+}
+
+.all-content {
+  color: #fff;
+  margin-top: 75px;
+}
+
+.all-content h4 {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.col-4-footer {
+  width: 33.33%;
+  float: left;
+}
+
+.pop-posts,
+.ul-tweets,
+.p-footer {
+  margin-top: 30px;
+}
+
+.pop-posts li {
+  background-image: url(../img/rectangle.png);
+  background-repeat: no-repeat;
+  padding-left: 70px;
+}
+
+.pop-posts li,
+.ul-tweets li {
+  font-size: 15px;
+  width: 250px;
+  margin-top: 10px;
+  padding-top: 10px;
+}
+
+.block {
+  display: block;
+  font-size: 10px;
+  padding-top: 5px;
+}
+
+.p-footer {
+  margin-top: 20px;
+  padding-top: 10px;
+
+  font-size: 15px;
+  line-height: 20px;
+}
+
+/* footer section  End */
+
+/* copyright section start */
+
+.copyright {
+  background: #d7dedc;
+}
+
+.copyright .container {
+  text-align: center;
+}
+
+.inline {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.cr,
+.info {
+  font-size: 15px;
+  color: #000;
+}
+.cr {
+  margin-right: 30px;
+}
+
+.inline.images {
+  margin-left: 10px;
+}
+
+.fb,
+.twtr,
+.dribble {
+  margin-left: 30px;
+}
+
+.cr:after,
+.info:after {
+  content: "";
+  border: 1px solid #000;
+  margin-left: 35px;
+}
+
+/* copyright section End  */
+
+.iphone-on {
+  position: absolute;
+  width: 55%;
+  right: 172px;
+  top: 105px;
+}
+
+.iphone-btn {
+  position: absolute;
+  right: 212px;
+}
+/* General rules End */
+
+.js-wp-2 {
+  opacity: 0;
+}
+
+.animated {
+  opacity: 1;
+}
+
+.js-wp-3 {
+  opacity: 0;
+  animation-delay: 2.7s;
+}
+.js-wp-3.animated {
+  opacity: 1;
+}
+
+/*Media queries */
+
+@media screen and (max-width: 860px) {
+  .iphone-imgs {
+    display: none;
+  }
+
+  .cta-info {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .cta-info {
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .p-features {
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .col-4-app {
+    width: 100%;
+    float: none;
+  }
+}
